@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav h1 {
+    font-family: 'Rancho', cursive;
+    /*font-family: 'Bonheur Royale', cursive;*/
+}
+
+.bgd-image {
+    background-image: url('../images/invest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 0;
+}
+
+.align-bottom {
+    position: absolute;
+    bottom: -18%;
+    right: 0;
+    left: 0;
+}
+
+.about-bgd {
+    height: 100vh;
+    background-image: url('../images/sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.service-bgd {
+    background-image: url('../images/airplane.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;background-position: 0 85%;
+}
